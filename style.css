@@ -24,8 +24,12 @@ nav {
     align-items: center;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 255, 0, 0.3);
-    position: sticky;
+
+    position: fixed;
     top: 0;
+    left: 0;
+    width: 100%;
+
     z-index: 1000;
     font-family: 'Courier New', monospace;
 }
@@ -90,7 +94,7 @@ nav .portfolio {
 .page-content {
     max-width: 1000px;
     margin: 50px auto;
-    padding: 20px 30px;
+    padding: 140px 30px 20px;
     background-color: #1e1e1e;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 255, 0, 0.3);
@@ -265,8 +269,7 @@ footer .colonne a:hover {
     }
 
     .page-content {
-        padding-top: 120px;
-        padding: 20px 10px;
+        padding: 140px 10px 20px;
     }
 
     .competences-section,
@@ -288,4 +291,40 @@ footer .colonne a:hover {
     footer .colonne {
         margin-bottom: 20px;
     }
+}
+
+nav {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  z-index: 999999 !important;
+}
+
+html, body {
+  transform: none !important;
+  filter: none !important;
+  perspective: none !important;
+}
+
+.page-content {
+  padding-top: 140px !important;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
+    transition: transform 0.3s ease;
+}
+
+nav.nav-hidden {
+    transform: translateY(-120%);
+}
+
+.page-content {
+    padding-top: 140px;
 }
