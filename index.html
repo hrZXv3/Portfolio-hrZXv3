@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Calonnec Elijah</title>
+    <!-- Ajout de Font Awesome pour les icônes -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- Ajout de la bibliothèque Typewriter.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typewriter-effect@2.18.0/dist/core.min.js"></script>
+</head>
+
+<body>
+    <!-- Welcome Overlay -->
+    <div id="welcome-overlay">
+        <div class="welcome-content">
+            <h1>Portfolio Elijah Calonnec</h1>
+            <p>Cybersecurity Student</p>
+            <div class="loading-bar">
+                <div class="loading-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <nav>
+        <div class="profile">
+            <img src="images/elijahphoto.jpg" alt="Photo d'Elijah">
+        </div>
+        <div class="nom">
+            <h1>Elijah Calonnec</h1>
+        </div>
+        <button class="burger" id="burgerBtn">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="navbar">
+            <a href="https://github.com/hrZXv3" target="_blank"><i class="fa-brands fa-github"></i> Github</a>
+            <a href="https://www.linkedin.com/in/elijahcal/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+            <a href="#adresses"><i class="fas fa-envelope"></i> Email</a>
+            <a href="#competences"><i class="fas fa-shield-alt"></i> Mes Compétences</a>
+            <a href="#experience"><i class="fas fa-briefcase"></i> Mon Parcours</a>
+            <a href="#projects"><i class="fas fa-project-diagram"></i> Mes Projets</a>
+            <a href="cvelijahO.pdf" target="_blank"><i class="fas fa-file-alt"></i> CV</a>
+        </div>
+    </nav>
+
+    <section class="page-content">
+        <header>
+            <div id="typing-text"></div>
+        </header>
+
+        <section class="about-section" id="about">
+            <h1>À propos de moi</h1>
+            <div class="about-item">
+                <i class="fas fa-user"></i>
+                <p>
+                    Bonjour moi c'est Elijah, je suis actuellement à la recherche d'une alternance en cybersécurité sous le RYTHME 3 SEMAINES
+                    ENTREPRISE / 1 SEMAINE FORMATION – en Cybersecurité et Cybermenace pour septembre 2026
+                </p>
+            </div>
+            <div class="about-item">
+                <i class="fas fa-graduation-cap"></i>
+                <p>
+                    Etudiant en 2eme année cybersécurité à OTERIA. Spécialisation
+                    axée sur le facteur humain et le social engineering. Intérêt pour l'analyse des
+                    menaces, des comportements à risque et des modes opératoires. Approche
+                    combinant compréhension stratégique des attaques et mise en situation
+                    offensive et défensive.
+                </p>
+            </div>
+            <div class="about-item">
+                <i class="fas fa-briefcase"></i>
+                <p>
+                    Après l'obtention de mon baccalauréat, j'ai suivi deux années à EPITECH,
+                    où j'ai développé de solides bases en informatique, en programmation et en logique algorithmique,
+                    avant de m'orienter vers un BTS SNIR (Systèmes Numériques, Informatique et Réseaux), obtenu en 2022,
+                    afin d'acquérir une compréhension plus technique et opérationnelle des systèmes et des réseaux.
+                    Par la suite, j'ai mené un projet dans l'esport pendant deux ans, une expérience structurante qui m'a amené à voyager à l'international et à évoluer dans des environnements exigeants,
+                    renforçant mes compétences en organisation, communication, gestion d'équipe et travail sous pression.
+                </p>
+            </div>
+        </section>
+
+        <section class="experience-section" id="experience">
+            <h1><i class="fas fa-briefcase"></i> Mon Parcours</h1>
+            <div class="timeline">
+                <div class="timeline-item current">
+                    <a href="https://www.oteria.fr/" target="_blank" class="timeline-content">
+                        <div class="timeline-icon">
+                            <img src="images/oteria.png" alt="Oteria Cyber School" class="timeline-logo">
+                        </div>
+                        <div class="timeline-text">
+                            <h3>Oteria Cyber School</h3>
+                            <p class="timeline-role">Étudiant en Cybersécurité</p>
+                            <p>Cours théoriques :</p>
+                            <ul class="timeline-courses">
+                                <li>Programmation: Python / C-C++ / Web</li>
+                                <li>Réseaux</li>
+                                <li>Système d'exploitation: Linux / Bash / Windows (Active directory) / Powershell</li>
+                                <li>Virtualisation</li>
+                            </ul>
+                            <span class="timeline-date">2025 - 2029</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <img src="images/esport.png" alt="Esport" class="timeline-logo">
+                        </div>
+                        <div class="timeline-text">
+                            <h3>Equipe Esport</h3>
+                            <p class="timeline-role">Joueur Professionnel</p>
+                            <p>Expérience compétitive à haut niveau et esprit d'équipe</p>
+                            <span class="timeline-date">2022 - 2024</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <a href="https://www.aforp.fr/" target="_blank" class="timeline-content">
+                        <div class="timeline-icon">
+                            <img src="images/bts.png" alt="BTS" class="timeline-logo">
+                        </div>
+                        <div class="timeline-text">
+                            <h3>BTS SNIR</h3>
+                            <p class="timeline-role">Systèmes Numériques, Informatique et Réseaux</p>
+                            <p>Compréhension technique et opérationnelle des systèmes et réseaux</p>
+                            <span class="timeline-date">2020 - 2022</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="timeline-item">
+                    <a href="https://www.epitech.eu/" target="_blank" class="timeline-content">
+                        <div class="timeline-icon">
+                            <img src="images/epitech.png" alt="Epitech" class="timeline-logo">
+                        </div>
+                        <div class="timeline-text">
+                            <h3>EPITECH</h3>
+                            <p class="timeline-role">Étudiant en Programmation</p>
+                            <p>Développement des bases en informatique, programmation et logique algorithmique</p>
+                            <span class="timeline-date">2017 - 2019</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+            <div class="competence-list">
+                <div class="competence-item">
+                    <div class="competence-header">
+                        <div class="competence-icon">
+                            <i class="fa-solid fa-lock"></i>
+                        </div>
+                        <span>Cybersecurité</span>
+                    </div>
+                    <p class="competence-details">Metasploit, Wireshark, Burp Suite, Nmap</p>
+                </div>
+                <div class="competence-item">
+                    <div class="competence-header">
+                        <div class="competence-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <span>Langages informatiques</span>
+                    </div>
+                    <p class="competence-details">C / C++ / Python / Bash / Shell</p>
+                </div>
+                <div class="competence-item">
+                    <div class="competence-header">
+                        <div class="competence-icon">
+                            <i class="fa-solid fa-network-wired"></i>
+                        </div>
+                        <span>Réseaux</span>
+                    </div>
+                    <p class="competence-details">TCP/IP, DNS, DHCP, HTTP</p>
+                </div>
+                <div class="competence-item">
+                    <div class="competence-header">
+                        <div class="competence-icon">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <span>Systèmes d'exploitation</span>
+                    </div>
+                    <p class="competence-details">Linux, Windows</p>
+                </div>
+                <div class="competence-item">
+                    <div class="competence-header">
+                        <div class="competence-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <span>Développement Web</span>
+                    </div>
+                    <p class="competence-details">HTML, CSS, JavaScript, PHP</p>
+                </div>
+                <div class="competence-item">
+                    <div class="competence-header">
+                        <div class="competence-icon">
+                            <i class="fas fa-cubes"></i>
+                        </div>
+                        <span>Virtualisation</span>
+                    </div>
+                    <p class="competence-details">Xen orchestra, Conteneurs (Docker, Kubernetes)</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects-section" id="projects">
+            <h1><i class="fas fa-project-diagram"></i> Projets Réalisés</h1>
+            <p>Voici une sélection de mes projets les plus récent.</p>
+            <div class="projects">
+                <div class="project">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <h4>Phishing-Lab (Python, HTML, CSS)</h4>
+                    </div>
+                    <p class="description">Application Flask simulant une page de connexion.
+                        Sensibilisation aux risques et aux bonnes pratiques de
+                        sécurité.
+                    </p>
+                    <div class="project-meta">
+                        <span class="dates">2025</span>
+                        <a href="https://github.com/hrZXv3/phishing-lab" target="_blank">Voir sur GitHub</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h4>Projet laboratoire – Architecture client / serveur en Python</h4>
+                    </div>
+                    <p class="description">Serveur centralisé permettant l’envoi et la réception de
+                        commandes vers des clients de test, en environnement de
+                        laboratoire isolé.
+                    </p>
+                    <div class="project-meta">
+                        <span class="dates">2025</span>
+                        <a href="https://github.com/hrZXv3/phishing-lab" target="_blank">Voir sur GitHub</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <h4>Delivery Check</h4>
+                    </div>
+                    <p class="description">Balance connectée pour vérifier les commandes clients. Langages utilisés : C++, Qt5, HTML, CSS, JavaScript, PHP</p>
+                    <div class="project-meta">
+                        <span class="dates">2021 - 2022</span>
+                        <a href="rapport.pdf" target="_blank">Voir le rapport</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h4>Intranet pour l'entreprise CECIAA</h4>
+                    </div>
+                    <p class="description">Développement d'un intranet accessible pour malvoyants. Langages utilisés : HTML, CSS, JavaScript, PHP</p>
+                    <div class="project-meta">
+                        <span class="dates">2020 - 2021</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-horse"></i>
+                        </div>
+                        <h4>WetHorse</h4>
+                    </div>
+                    <p class="description">Brumisateur connecté pour chevaux. Langage utilisé : C++ avec MQTT pour la communication</p>
+                    <div class="project-meta">
+                        <span class="dates">2021 - 2022</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="colonne">
+            <h3><i class="fas fa-address-book"></i> Mes Contacts</h3>
+            <p><i class="fas fa-envelope"></i> Email : JahElijah@hotmail.fr</p>
+            <p><i class="fas fa-phone"></i> Tél : 0651940738</p>
+            <p><i class="fab fa-linkedin"></i> LinkedIn : <a href="https://www.linkedin.com/in/elijah-calonnec-643a50179/" target="_blank">Calonnec Elijah</a></p>
+        </div>
+        <div class="colonne">
+            <h3><i class="fas fa-graduation-cap"></i> Mes Écoles / Entreprises</h3>
+            <a href="https://www.oteria.fr/" target="_blank"><p><i class="fas fa-shield-alt"></i> Oteria Cyber School</p></a>
+            <a href="https://www.epitech.eu/" target="_blank"><p><i class="fas fa-code"></i> Epitech</p></a>
+            <a href="https://www.aforp.fr/" target="_blank"><p><i class="fas fa-building"></i> AFORP-ISSY-LES-MOULINEAUX</p></a>
+            <a href="https://www.ceciaa.com/" target="_blank"><p><i class="fas fa-school"></i> CECIAA</p></a>
+        </div>
+        <div class="colonne" id="adresses">
+            <h3><i class="fas fa-map-marker-alt"></i> Adresse</h3>
+            <p><i class="fas fa-city"></i> Paris, France</p>
+            <p><i class="fas fa-map-pin"></i> Île-de-France</p>
+            <p><i class="fas fa-clock"></i> Disponible pour opportunités</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" title="Retour en haut"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- Script Typewriter.js -->
+    <script>
+        var app = document.querySelector('#typing-text');
+        var typewriter = new Typewriter(app, {
+            loop: true,
+            delay: 75
+        });
+
+        typewriter.typeString("RECHERCHE D'UNE ALTERNANCE EN CYBERSÉCURITÉ !")
+            .pauseFor(2500)
+            .deleteAll()
+            .start();
+    </script>
+    <script>
+    const nav = document.querySelector('nav');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+            nav.classList.add('nav-hidden');
+        } else {
+            nav.classList.remove('nav-hidden');
+        }
+    });
+</script>
+<script>
+    const burger = document.getElementById('burgerBtn');
+    const menu = document.querySelector('nav .navbar');
+
+    burger.addEventListener('click', () => {
+        menu.classList.toggle('show');
+    });
+</script>
+<script>
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+
+    // Animation on scroll
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('fade-in');
+            }
+        });
+    }, observerOptions);
+
+    // Observe sections for animation
+    document.querySelectorAll('.about-section, .competences-section, .experience-section, .projects-section, footer').forEach(section => {
+        observer.observe(section);
+    });
+
+    // Scroll to top button
+    const scrollToTopBtn = document.getElementById('scrollToTop');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+            scrollToTopBtn.classList.add('show');
+        } else {
+            scrollToTopBtn.classList.remove('show');
+        }
+    });
+
+    scrollToTopBtn.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+
+    // Welcome overlay auto-enter
+    window.addEventListener('load', () => {
+        const welcomeOverlay = document.getElementById('welcome-overlay');
+
+        // Hide welcome overlay after 1.5 seconds
+        setTimeout(() => {
+            welcomeOverlay.classList.add('hide');
+        }, 1500);
+    });
+</script>
+</body>
+
+</html>
+
+
+
+
